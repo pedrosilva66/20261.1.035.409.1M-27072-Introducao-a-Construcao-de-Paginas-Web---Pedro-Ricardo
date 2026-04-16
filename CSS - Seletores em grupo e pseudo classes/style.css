@@ -1,0 +1,50 @@
+* {
+    color:black;
+    font-size: 20px;
+}
+
+a {
+    color: blue;
+}
+
+table, tr, th, td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+.tabela_de_episodios {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    background-color: rgb(103, 97, 97);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.menu h1 {
+    font-size: 35px;
+    color: rgb(228, 171, 67);
+}
+
+.menu a {
+    color: black;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover {
+  color: red;
+}
+
+.menu a:hover {
+  color: rgb(255, 153, 0);
+}
+
