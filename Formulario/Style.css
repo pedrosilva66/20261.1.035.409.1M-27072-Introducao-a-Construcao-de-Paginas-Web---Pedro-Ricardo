@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+    display: flex;
+    justify-content: center; 
+}
+
+.conteudo {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+}

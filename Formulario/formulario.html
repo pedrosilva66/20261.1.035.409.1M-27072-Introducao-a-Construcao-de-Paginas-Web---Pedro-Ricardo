@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apucaits Server Minecraft</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+
+    <div class="conteudo">
+
+
+        <h1>Formulario para o Server de Minecraft</h1>
+
+        <form action="">
+
+            <h2>Dados do Jogador</h2>
+
+            <label for="User-nome">Nome</label>
+            <br>
+            <input type="text" id="User-nome" placeholder="Fulano da Silva" maxlength="80">
+
+            <br>
+
+            <label for="User-email">Seu email</label>
+            <br>
+            <input type="email" id="User-email" placeholder="exemplo@gmail.com" maxlength="50">
+
+            <br>
+
+            <label for="User-numero">Número de celular</label>
+            <br>
+            <input type="tel" id="User-numero" placeholder="xxxxxxxxxxx" maxlength="11">
+
+            <br>
+
+            <label for="User-idade">Sua idade</label>
+            <br>
+            <input type="number" id="User-idade">
+
+            <br>
+
+            <label for="User-discord">Seu discord</label>
+            <br>
+            <input type="text" id="User-discord" placeholder="NomeExemplo" maxlength="80">
+
+            <br>
+            <br>
+
+
+            <label>Como conheceu?</label>
+            <br>
+            <label for="Youtube">Youtube</label>
+            <input type="checkbox" id="Youtube" name="Conheceu">
+            <br>
+            <label for="Discord">Discord</label>
+            <input type="checkbox" id="Discord" name="Conheceu">
+            <br>
+            <label for="Instagram">Instagram</label>
+            <input type="checkbox" id="Instagram" name="Conheceu">
+            <br>
+            <label for="Recomendação">Recomendação</label>
+            <input type="checkbox" id="Recomendação" name="Conheceu">
+            <br>
+            <label for="Outra_forma">Outra_forma</label>
+            <input type="checkbox" id="Outra_forma" name="Conheceu">
+
+
+
+            <h2>Dados do Personagem</h2>
+
+            <label for="Rp-nome">Nome do Personagem</label >
+            <br>
+            <input type="text" id="Rp-nome" maxlength="80">
+
+            <br>
+
+            <label for="Rp-idade">Idade do seu Personagem</label>
+            <br>
+            <input type="number" id="Rp-idade">
+
+            <br>
+            <br>
+
+            <label for="Raca">Selecione sua Raça</label>
+            <br>
+            <select id="Raca">
+                <option value="Human">Humano</option>
+                <option value="Elf">Elfo</option>
+                <option value="kobold">kobold</option>
+                <option value="Anao">Anão</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label for="Lore">Lore do seu Personagem</label>
+            <br>
+            <textarea id="Lore" placeholder="300 max"></textarea>
+
+            <button> Enviar Formulário</button>
+        </form>
+
+    </div>
+
+    <script>
+const lore = document.getElementById("Lore");
+
+lore.addEventListener("input", function () {
+    this.style.height = "auto";
+    this.style.height = this.scrollHeight + "px";
+});
+</script>
+</body>
+
+</html>
